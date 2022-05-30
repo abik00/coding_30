@@ -1,0 +1,33 @@
+#navbar{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 2%;
+    
+    
+  }
+  #navbar>div>a{
+    text-decoration: none;
+    color: white;
+  }
+  #menu{
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    margin: auto;
+    justify-content: space-around;
+   
+    text-align: center;
+    
+  }
+  
+  
+  #menu>div>img{
+    height: 300px;
+    width: 200px;
+  }
+  #menu>div>button{
+    margin-bottom: 15px;
+    
+  }
